@@ -9,7 +9,7 @@
     "test": "jest",
     "test:watch": "yarn test -- --watch",
     "lint": "tslint ./src",
-    "lint-fix": "tslint -- --fix --ignore-path ./dist ./node_modules"
+    "lint-fix": "tslint --fix -c ./tslint.json 'src/**/*{.ts,.tsx}'"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

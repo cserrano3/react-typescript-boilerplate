@@ -5,6 +5,7 @@
             "options": [120]
         },
         "semicolon": true,
+        "quotemark": [true, "single"],
         "new-parens": true,
         "no-arg": true,
         "no-bitwise": true,
